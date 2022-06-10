@@ -78,65 +78,6 @@
       },
       "components": [
         {
-          "alias": "zen2cool-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "hr": {
-              "border": "0",
-              "clear": "both",
-              "display": "block",
-              "margin": "2.4rem auto",
-              "text-align": "center",
-              "width": "(@SizeWidth * 1%)"
-            },
-            ".progress": {
-              "background": "@Linecolor",
-              "opacity": "@Opacity",
-              "height": "(@CurThickness * 1px)",
-              "overflow": "hidden",
-              "position": "relative"
-            },
-            ".progress::before": {
-              "animation-duration": "(@Speed * 1s)",
-              "animation-timing-function": "ease",
-              "animation-iteration-count": "infinite",
-              "animation-name": "progress",
-              "background": "@Progresscolor",
-              "content": "\"\"",
-              "display": "block",
-              "height": "(@CurThickness * 1px)",
-              "position": "absolute",
-              "width": "100px"
-            },
-            "@keyframes progress": {
-              "from": {
-                "margin-left": "(@Start * 1%)",
-                "width": "(@CursorSize * 1px)"
-              },
-              "to": {
-                "margin-left": "(@Stop * 1%)",
-                "width": "(@CursorSize * 1px)"
-              }
-            }
-          },
-          "_name": "separator",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline=\"\" title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"77\">\n      <input type=\"range\" inline=\"\" title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"5\">\n      <input type=\"range\" inline=\"\" title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"70\">\n      <input type=\"range\" inline=\"\" title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n       <input type=\"range\" inline=\"\" title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline=\"\" title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#fafafa\" selected=\"\">\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#e43f3f\" selected=\"\">\n      <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#fafafa\" selected=\"\">\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
-          "_anchor": "separator-2a",
-          "_isUserblock": true,
-          "_cid": "t8nHOGritI",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
           "alias": "casper-blocks/components",
           "_isSecondary": true,
           "typeCompatible": "type",
