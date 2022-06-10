@@ -679,6 +679,48 @@ body {
 a {
   transition: color 0.6s;
 }
+.cid-t8nHOGritI {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fafafa;
+}
+.cid-t8nHOGritI hr {
+  border: 0;
+  clear: both;
+  display: block;
+  margin: 2.4rem auto;
+  text-align: center;
+  width: 70%;
+}
+.cid-t8nHOGritI .progress {
+  background: #fafafa;
+  opacity: 1;
+  height: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.cid-t8nHOGritI .progress::before {
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-name: progress;
+  background: #e43f3f;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 100px;
+}
+@keyframes progress {
+  from {
+    margin-left: 0%;
+    width: 77px;
+  }
+  to {
+    margin-left: 100%;
+    width: 77px;
+  }
+}
 .cid-t8jcHMhOYq {
   background-color: #fafafa;
 }
@@ -724,28 +766,28 @@ a {
   opacity: 1;
   transform: translateX(-50%) scale(1);
 }
-.cid-t8jpc0IUYB {
+.cid-t8nHPDpbiE {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #fafafa;
 }
-.cid-t8jpc0IUYB hr {
+.cid-t8nHPDpbiE hr {
   border: 0;
   clear: both;
   display: block;
   margin: 2.4rem auto;
   text-align: center;
-  width: 100%;
+  width: 70%;
 }
-.cid-t8jpc0IUYB .progress {
+.cid-t8nHPDpbiE .progress {
   background: #fafafa;
   opacity: 1;
   height: 5px;
   overflow: hidden;
   position: relative;
 }
-.cid-t8jpc0IUYB .progress::before {
-  animation-duration: 3s;
+.cid-t8nHPDpbiE .progress::before {
+  animation-duration: 5s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-name: progress;
@@ -759,11 +801,11 @@ a {
 @keyframes progress {
   from {
     margin-left: 0%;
-    width: 157px;
+    width: 77px;
   }
   to {
     margin-left: 100%;
-    width: 157px;
+    width: 77px;
   }
 }
 .cid-t8jiN6RmcP {
@@ -802,28 +844,28 @@ a {
 .cid-t8jiN6RmcP .social-row {
   color: #bbbbbb;
 }
-.cid-t8jHS0bFSL {
+.cid-t8nHQeZa8q {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #fafafa;
 }
-.cid-t8jHS0bFSL hr {
+.cid-t8nHQeZa8q hr {
   border: 0;
   clear: both;
   display: block;
   margin: 2.4rem auto;
   text-align: center;
-  width: 100%;
+  width: 70%;
 }
-.cid-t8jHS0bFSL .progress {
+.cid-t8nHQeZa8q .progress {
   background: #fafafa;
   opacity: 1;
   height: 5px;
   overflow: hidden;
   position: relative;
 }
-.cid-t8jHS0bFSL .progress::before {
-  animation-duration: 3s;
+.cid-t8nHQeZa8q .progress::before {
+  animation-duration: 5s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-name: progress;
@@ -837,11 +879,11 @@ a {
 @keyframes progress {
   from {
     margin-left: 0%;
-    width: 157px;
+    width: 77px;
   }
   to {
     margin-left: 100%;
-    width: 157px;
+    width: 77px;
   }
 }
 .cid-t8jOib2LTY {
@@ -1210,7 +1252,7 @@ a {
   display: block;
   margin: 2.4rem auto;
   text-align: center;
-  width: 100%;
+  width: 70%;
 }
 .cid-t8jIg5YpvA .progress {
   background: #fafafa;
@@ -1220,7 +1262,7 @@ a {
   position: relative;
 }
 .cid-t8jIg5YpvA .progress::before {
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-name: progress;
@@ -1234,11 +1276,11 @@ a {
 @keyframes progress {
   from {
     margin-left: 0%;
-    width: 10px;
+    width: 77px;
   }
   to {
     margin-left: 100%;
-    width: 10px;
+    width: 77px;
   }
 }
 .cid-t8nwTyb2i3 {
@@ -1653,28 +1695,28 @@ a {
     left: -1rem;
   }
 }
-.cid-t8jWUKSJ42 {
+.cid-t8nHzKlaO3 {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #fafafa;
 }
-.cid-t8jWUKSJ42 hr {
+.cid-t8nHzKlaO3 hr {
   border: 0;
   clear: both;
   display: block;
   margin: 2.4rem auto;
   text-align: center;
-  width: 100%;
+  width: 70%;
 }
-.cid-t8jWUKSJ42 .progress {
+.cid-t8nHzKlaO3 .progress {
   background: #fafafa;
   opacity: 1;
   height: 5px;
   overflow: hidden;
   position: relative;
 }
-.cid-t8jWUKSJ42 .progress::before {
-  animation-duration: 3s;
+.cid-t8nHzKlaO3 .progress::before {
+  animation-duration: 5s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-name: progress;
@@ -1688,11 +1730,11 @@ a {
 @keyframes progress {
   from {
     margin-left: 0%;
-    width: 157px;
+    width: 77px;
   }
   to {
     margin-left: 100%;
-    width: 157px;
+    width: 77px;
   }
 }
 .cid-t8ny7jXUwO {
@@ -1752,46 +1794,46 @@ a {
 .cid-t8ny5dmJhD .mbr-figure iframe {
   width: 100%;
 }
-.cid-t8nwQbJRxR {
+.cid-t8nHBMiRW3 {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #fafafa;
 }
-.cid-t8nwQbJRxR hr {
+.cid-t8nHBMiRW3 hr {
   border: 0;
   clear: both;
   display: block;
   margin: 2.4rem auto;
   text-align: center;
-  width: 100%;
+  width: 70%;
 }
-.cid-t8nwQbJRxR .progress {
+.cid-t8nHBMiRW3 .progress {
   background: #fafafa;
   opacity: 1;
-  height: 7px;
+  height: 5px;
   overflow: hidden;
   position: relative;
 }
-.cid-t8nwQbJRxR .progress::before {
-  animation-duration: 10s;
+.cid-t8nHBMiRW3 .progress::before {
+  animation-duration: 5s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-name: progress;
   background: #e43f3f;
   content: "";
   display: block;
-  height: 7px;
+  height: 5px;
   position: absolute;
   width: 100px;
 }
 @keyframes progress {
   from {
     margin-left: 0%;
-    width: 10px;
+    width: 77px;
   }
   to {
     margin-left: 100%;
-    width: 10px;
+    width: 77px;
   }
 }
 .cid-t8nyQl3QsH {
@@ -1851,28 +1893,28 @@ a {
 .cid-t8ny931XhK .mbr-figure iframe {
   width: 100%;
 }
-.cid-t8nwJpdu6Y {
+.cid-t8nHCvIYFQ {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #fafafa;
 }
-.cid-t8nwJpdu6Y hr {
+.cid-t8nHCvIYFQ hr {
   border: 0;
   clear: both;
   display: block;
   margin: 2.4rem auto;
   text-align: center;
-  width: 100%;
+  width: 70%;
 }
-.cid-t8nwJpdu6Y .progress {
+.cid-t8nHCvIYFQ .progress {
   background: #fafafa;
   opacity: 1;
   height: 5px;
   overflow: hidden;
   position: relative;
 }
-.cid-t8nwJpdu6Y .progress::before {
-  animation-duration: 3s;
+.cid-t8nHCvIYFQ .progress::before {
+  animation-duration: 5s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-name: progress;
@@ -1886,10 +1928,10 @@ a {
 @keyframes progress {
   from {
     margin-left: 0%;
-    width: 157px;
+    width: 77px;
   }
   to {
     margin-left: 100%;
-    width: 157px;
+    width: 77px;
   }
 }
