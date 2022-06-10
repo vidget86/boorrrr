@@ -1241,6 +1241,23 @@ a {
     width: 157px;
   }
 }
+.cid-t8nwTyb2i3 {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #efefef;
+}
+.cid-t8nwTyb2i3 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t8nwTyb2i3 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
 .cid-t8jYUi2LL7 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -1657,6 +1674,204 @@ a {
   position: relative;
 }
 .cid-t8jWUKSJ42 .progress::before {
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-name: progress;
+  background: #e43f3f;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 100px;
+}
+@keyframes progress {
+  from {
+    margin-left: 0%;
+    width: 157px;
+  }
+  to {
+    margin-left: 100%;
+    width: 157px;
+  }
+}
+.cid-t8ny7jXUwO {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #efefef;
+}
+.cid-t8ny7jXUwO .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t8ny7jXUwO .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-t8ny5dmJhD {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #fafafa;
+}
+.cid-t8ny5dmJhD .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t8ny5dmJhD .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .cid-t8ny5dmJhD .row {
+    flex-direction: column-reverse;
+  }
+  .cid-t8ny5dmJhD .mbr-figure {
+    margin-bottom: 1.5rem;
+  }
+}
+.cid-t8ny5dmJhD .row {
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .cid-t8ny5dmJhD .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-t8ny5dmJhD .media-content,
+.cid-t8ny5dmJhD .mbr-figure {
+  align-self: center;
+}
+.cid-t8ny5dmJhD .mbr-figure iframe {
+  width: 100%;
+}
+.cid-t8nwQbJRxR {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fafafa;
+}
+.cid-t8nwQbJRxR hr {
+  border: 0;
+  clear: both;
+  display: block;
+  margin: 2.4rem auto;
+  text-align: center;
+  width: 100%;
+}
+.cid-t8nwQbJRxR .progress {
+  background: #cccccc;
+  opacity: 1;
+  height: 7px;
+  overflow: hidden;
+  position: relative;
+}
+.cid-t8nwQbJRxR .progress::before {
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-name: progress;
+  background: #e43f3f;
+  content: "";
+  display: block;
+  height: 7px;
+  position: absolute;
+  width: 100px;
+}
+@keyframes progress {
+  from {
+    margin-left: 0%;
+    width: 10px;
+  }
+  to {
+    margin-left: 100%;
+    width: 10px;
+  }
+}
+.cid-t8nyQl3QsH {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #efefef;
+}
+.cid-t8nyQl3QsH .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t8nyQl3QsH .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-t8ny931XhK {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #fafafa;
+}
+.cid-t8ny931XhK .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t8ny931XhK .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .cid-t8ny931XhK .row {
+    flex-direction: column-reverse;
+  }
+  .cid-t8ny931XhK .mbr-figure {
+    margin-bottom: 1.5rem;
+  }
+}
+.cid-t8ny931XhK .row {
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .cid-t8ny931XhK .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-t8ny931XhK .media-content,
+.cid-t8ny931XhK .mbr-figure {
+  align-self: center;
+}
+.cid-t8ny931XhK .mbr-figure iframe {
+  width: 100%;
+}
+.cid-t8nwJpdu6Y {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fafafa;
+}
+.cid-t8nwJpdu6Y hr {
+  border: 0;
+  clear: both;
+  display: block;
+  margin: 2.4rem auto;
+  text-align: center;
+  width: 100%;
+}
+.cid-t8nwJpdu6Y .progress {
+  background: #fafafa;
+  opacity: 1;
+  height: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.cid-t8nwJpdu6Y .progress::before {
   animation-duration: 3s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
