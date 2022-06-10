@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "boris-nw.index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -67,11 +67,11 @@
     "publishChangesOnly": true
   },
   "pages": {
-    "index.html": {
+    "boris-nw.index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "boris-nw",
+        "meta_descr": "boris-nw",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -738,9 +738,9 @@
         }
       ]
     },
-    "page1.html": {
+    "gallary.html": {
       "settings": {
-        "title": "Page 1",
+        "title": "gallary",
         "order": 2
       },
       "components": [
