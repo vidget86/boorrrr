@@ -64,7 +64,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "witsec-white-label": true,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "boris-nw.index.html": {
