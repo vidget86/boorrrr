@@ -1234,11 +1234,11 @@ a {
 @keyframes progress {
   from {
     margin-left: 0%;
-    width: 157px;
+    width: 10px;
   }
   to {
     margin-left: 100%;
-    width: 157px;
+    width: 10px;
   }
 }
 .cid-t8nwTyb2i3 {
